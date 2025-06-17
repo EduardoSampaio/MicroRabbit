@@ -1,0 +1,6 @@
+@MicroRabbit.Baking.Api_HostAddress = http://localhost:5136
+
+GET {{MicroRabbit.Baking.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

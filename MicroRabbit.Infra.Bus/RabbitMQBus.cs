@@ -108,9 +108,8 @@ public sealed class RabbitMQBus : IEventBus
         {
             await ProcessEvent(eventName, message).ConfigureAwait(false);
         }
-        catch (Exception ex)
+        catch (Exception)
         {
-
             throw;
         }
     }
